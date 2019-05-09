@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <script text="javascript" src="/js/data-object.js"></script>
+
+</head>
+
+<body>
+
+    <input type="text" id="inputFilter" onkeyup="filterDataTable()" placeholder="Search for names.."
+        title="Type in a name">
+
+    <table id="idTable">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Diameter</th>
+                <th>Climate</th>
+                <th>Gravity</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody id="idDataTable"></tbody>
+    </table>
+
+
+    <script text="javascript" src="/js/display-data.js"></script>
+    <script text="javascript" src="/js/filter-data.js"></script>
+
+</body>
+
+</html>
