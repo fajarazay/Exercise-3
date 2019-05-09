@@ -1,4 +1,4 @@
-function myFunction() {
+function filterDataTable() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("inputFilter");
     filter = input.value.toUpperCase();
